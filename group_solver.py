@@ -33,7 +33,7 @@ def get_pair_score(p1, p2):
     '''
     Return the total utility of the pairing (p1, p2)
     '''
-    return ranking[p1][p2]
+    return ranking[p1][p2] + ranking[p2][p1]
 
 def get_index(p, g):
     return g * MAX_P + p + 1
