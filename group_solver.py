@@ -3,7 +3,7 @@ from pysat.examples.rc2 import RC2
 from pysat.formula import WCNF
 from pysat.card import EncType, CardEnc
 
-MAX_P = 30
+MAX_P = 27
 P_PER_G = 3
 
 MAX_G = math.ceil(MAX_P / P_PER_G)
